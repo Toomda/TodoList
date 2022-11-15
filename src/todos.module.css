@@ -1,0 +1,92 @@
+.Header {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  font-family: cursive;
+  color: white;
+  margin-top: 20px;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+
+.Todo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.TodoCheckbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  clip-path: circle(46% at 50% 50%);
+}
+
+.TodoLabel {
+  color: rgb(255, 76, 76);
+  margin-left: 20px;
+  font-size: xx-large;
+  font-family: cursive;
+  user-select: none;
+}
+
+.TodoLabelDone {
+  color: rgb(76, 250, 93);
+  margin-left: 20px;
+  font-size: xx-large;
+  font-family: cursive;
+  user-select: none;
+  text-decoration: line-through;
+}
+
+.Todos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.TodoListItem {
+  list-style-type: none;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.Searchbar {
+  border-radius: 3px;
+  width: 30rem;
+  font-size: large;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.Searchbar:focus {
+  outline: 3px groove rgb(255, 219, 142);
+  outline-offset: 2px;
+}
+
+.SearchBarContainer {
+  width: max-content;
+  display: flex;
+  height: 40px;
+  gap: 0.3rem;
+}
+
+.btnAdd {
+  border-radius: 5px;
+  font-family: cursive;
+  font-size: x-large;
+  cursor: pointer;
+  background-color: rgb(255, 219, 142);
+}
+
+.CancelIcon {
+  margin-left: 10rem;
+  margin-top: 5px;
+  color: red;
+  cursor: pointer;
+  /* style={{ marginLeft: "10rem", marginTop: "5px", color: "white" }} */
+}
